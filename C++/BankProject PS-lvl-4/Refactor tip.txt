@@ -1,0 +1,1 @@
+use arrestClient() function instead of for loops to update data

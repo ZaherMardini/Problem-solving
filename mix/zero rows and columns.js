@@ -60,4 +60,4 @@ function countZeroRowsAndColumns(arr1,arr2){
 }
 
 console.log(arr3, `zero rows:${zrows}`, `zero columns:${zcol}`, `total:${zcol + zrows}`);
-console.timeEnd('time')
+console.timeEnd('time');

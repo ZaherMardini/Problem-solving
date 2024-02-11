@@ -1,0 +1,91 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Practice notes",
+  "steps": [
+    {
+      "file": "PSLvl-3.h",
+      "description": "After the text is updated we search\r\nagain for the position of the word we want to replace",
+      "line": 629
+    },
+    {
+      "file": "PSLvl-3.h",
+      "description": "// ==============My approach\r\n// string zreplace(string txt, string origin, string alternative, bool match = 1){\r\n//   string word;\r\n//   short pos = txt.find(origin);\r\n//   if(match){\r\n//     if(pos == string::npos){\r\n//       origin = sUpper(origin);\r\n//       pos = txt.find(origin);\r\n//     }\r\n//   }\r\n//   while (pos != string::npos)\r\n//   {\r\n//     txt.erase(pos, origin.length());\r\n//     txt.insert(pos, alternative);\r\n//     pos = txt.find(origin);\r\n//   }\r\n//   return txt;\r\n// }\r\n",
+      "line": 630
+    },
+    {
+      "file": "PSLvl-3.h",
+      "description": "Searching outside the file is faster",
+      "line": 809
+    },
+    {
+      "file": "PSLvl-3.h",
+      "description": "Deletion logic is we mark the wanted client to delete it by adding a boolean property called deleteme in the stClient structure,\r\nthen we set it to false by default, when we want to mark the wanted client we set its deleteme property to true, then we \r\nsave its index in the records, now we set the open mode in the file to overwrite the previous values, and we add all the clients \r\nexcept the wanted one (the one marked with the property deleteme = ture), Don't forget to refresh the records by loading the data from the file once again;",
+      "line": 836
+    },
+    {
+      "file": "PSLvl-3.h",
+      "description": "Loved that one",
+      "line": 712
+    },
+    {
+      "file": "PSLvl-3.h",
+      "description": "Go to readCilent definition",
+      "line": 742
+    },
+    {
+      "file": "PSLvl-3.h",
+      "description": "getline(cin >> ws) to ignore white spaces",
+      "line": 692
+    },
+    {
+      "file": "PSLvl-3.h",
+      "description": "Because the type is void we needed a condition to exit\r\nOf course you can update the values manualy but i liked \r\nplaying with parameters and shortening the syntax",
+      "line": 311
+    },
+    {
+      "file": "PSLvl-3.h",
+      "description": "Don't forget the logic of rading strings from a file",
+      "line": 763
+    },
+    {
+      "file": "PSLvl-3.h",
+      "description": "This was my approach, the key difference is the vector type, it's either a vector of string or a vector of records (client structures), and stringToRecord call time",
+      "line": 765
+    },
+    {
+      "file": "PSLvl-3.h",
+      "description": "My solution without using split and join",
+      "line": 640
+    },
+    {
+      "file": "PSLvl-3.h",
+      "description": "This is normal use of built-in replace function",
+      "line": 625
+    },
+    {
+      "file": "PSLvl-3.h",
+      "description": "My solution using vectors and zsplit",
+      "line": 656
+    },
+    {
+      "file": "PSLvl-3.h",
+      "description": "Also my solution but depending on insert method",
+      "line": 639
+    },
+    {
+      "file": "PSLvl-3.h",
+      "description": "Overloaded version to use an array",
+      "line": 596
+    },
+    {
+      "file": "PSLvl-3.h",
+      "description": "Large logic boost and it seems an advanced example\r\nI asked AI to explain it",
+      "line": 495
+    },
+    {
+      "file": "PSLvl-3.h",
+      "description": "Good one for interreviews",
+      "line": 608
+    }
+  ]
+}
